@@ -1,0 +1,17 @@
+{
+    "name": "prmd/hello_prmd",
+    "description": "First Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pramod Kushwaha",
+            "email": "pramodkushwahaa@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "HelloPrmd\\":"src/"
+        }
+    },
+    "require": {}
+}
