@@ -11,6 +11,6 @@ if you want to print then follow below steps
 # Example index.php 
 	<?php 
 		require_once './vendor/autoload.php';
+		
 		$print = new \HelloPrmd\HelloPrmd();
 		print_r($print->printHello());
-	?>
