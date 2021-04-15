@@ -1,13 +1,13 @@
-<?php 
+<?php
 
 namespace HelloPrmd;
 
-class HelloPrmd {
+class HelloPrmd 
+{
 
-	public function printHello(){
-		echo 'Welcome my first package';
-	}
+    public function printHello() 
+    {
+        echo 'Welcome my first package';
+    }
 
 }
-
-?>
